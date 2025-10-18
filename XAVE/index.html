@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>XAVE Tech Solutions — Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="XAVE Tech Solutions — We Build and Beautify Your Digital Presence">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Xave Tech Solutions">
+        <img src="assets/logo.png" alt="Xave Tech Solutions logo" class="logo-img" width="56" height="56">
+        <span class="brand-text">XAVE Tech Solutions</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">☰</button>
+        <ul id="primary-nav" class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="btn-primary nav-contact">Start a project</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero hero-home">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1>We Build and Beautify Your Digital Presence.</h1>
+          <p class="lead">
+            Tired of juggling multiple vendors for your digital needs? We simplify it all. Our integrated services are designed to work together seamlessly.
+          </p>
+
+          <ul class="features">
+            <li><strong>Web Design &amp; Development</strong> — Fast, responsive, beautiful websites that perform.</li>
+            <li><strong>Website Optimization (SEO)</strong> — Rank higher and attract your ideal customers.</li>
+            <li><strong>Graphic Design</strong> — Cohesive visual identity across print & digital.</li>
+          </ul>
+
+          <div class="hero-cta">
+            <a href="contact.html" class="btn-primary large">Get Started</a>
+            <a href="portfolio.html" class="btn-secondary">See Portfolio</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="device-card">
+            <img src="assets/logo.png" alt="Xave logo mock" loading="lazy">
+            <div class="device-overlay">
+              <h3>One-stop digital studio</h3>
+              <p>Design • Dev • SEO • Branding</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-links">
+      <div class="container">
+        <h2>Integrated Services</h2>
+        <div class="links-grid">
+          <a class="service-card" href="services.html#web">Web Design &amp; Dev</a>
+          <a class="service-card" href="services.html#seo">Website Optimization (SEO)</a>
+          <a class="service-card" href="services.html#graphic">Graphic Design</a>
+          <a class="service-card" href="portfolio.html">Portfolio</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> XAVE Tech Solutions</p>
+      <nav class="footer-nav">
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <div id="welcome-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="welcome-title" hidden>
+    <div class="modal-inner">
+      <button class="modal-close" aria-label="Close welcome">✕</button>
+      <h2 id="welcome-title">WELCOME TO XAVE TECH SOLUTIONS</h2>
+      <p>We create beautiful, high-performing digital experiences.</p>
+      <a href="contact.html" class="btn-primary">Start a project</a>
+    </div>
+  </div>
+
+  <div id="overlay" class="overlay" hidden></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
